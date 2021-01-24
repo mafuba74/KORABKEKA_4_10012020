@@ -6,7 +6,16 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.citation{
+    font-size: 1.5em;
+    font-style: italic;
+    line-height: 1.2em;
+}
+.citation-sign{
+    font-size: 0.7em;
+    font-style: normal;
+    
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -638,7 +647,9 @@ a[data-lightbox]:hover img {
     color: rgba(0, 0, 0, .5);
     background: none;
 }
-
+a{
+    color: black;
+}
 h1,
 h2,
 h3,
@@ -648,7 +659,7 @@ h6,
 p,
 label,
 .btn,
-a {
+{
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -771,20 +782,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #B65E41;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:#fff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #B65E41;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background:#B65E41!important;
     color: #FFFFFF!important;
 }
 
@@ -797,11 +808,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color:#B65E41!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color:#B65E41!important;
 }
 
 .icon-dark-slate-blue {
