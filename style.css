@@ -686,9 +686,14 @@ label,
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
+.btn-form:focus{
+    border: 2px solid black;
+}
+a:focus{
+    border: 2px solid black;
+}
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
